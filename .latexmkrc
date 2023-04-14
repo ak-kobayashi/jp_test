@@ -6,3 +6,4 @@ $pdf_mode = 3;
 $ENV{TZ} = 'Asia/Tokyo';
 $ENV{OPENTYPEFONTS} = '/usr/share/fonts//:';
 $ENV{TTFONTS} = '/usr/share/fonts//:';
+%$latex = "latexdiff-git --force -r hogehoge -e utf8 main.tex; uplatex %O  maindiff";
